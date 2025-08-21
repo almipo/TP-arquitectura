@@ -1,7 +1,7 @@
 # 📦 API Control de Stock
 
 Este proyecto es una **API REST** para la gestión de productos y control de inventario.  
-Permite realizar operaciones básicas de **CRUD** (Crear, Leer, Actualizar, Eliminar) sobre los productos, además de algunos métodos adicionales para mejorar el manejo del stock.
+Permite realizar operaciones básicas de **CRUD** (Crear, Leer, Actualizar, Eliminar) sobre los productos, además de algunos métodos adicionales para mejorar el manejo del stock tales como listar productos con stock debajo del minimo establecido, registrar entrada o salida de stock, entre otros.
 
 ---
 
