@@ -4,6 +4,19 @@ Este proyecto es una **API REST** para la gestión de productos y control de inv
 Permite realizar operaciones básicas de **CRUD** (Crear, Leer, Actualizar, Eliminar) sobre los productos, además de algunos métodos adicionales para mejorar el manejo del stock tales como listar productos con stock debajo del minimo establecido, registrar entrada o salida de stock, entre otros.
 
 ---
+## 🔹 Endpoints disponibles
+
+### 📌 Productos (CRUD)
+- **GET** `/api/productos` → Listar todos los productos.  
+- **GET** `/api/productos/{id}` → Obtener un producto por su ID.  
+- **POST** `/api/productos` → Crear un nuevo producto.  
+- **PUT** `/api/productos/{id}` → Actualizar un producto existente.  
+- **DELETE** `/api/productos/{id}` → Eliminar un producto.  
+
+### 📌 Métodos adicionales
+- **GET** `/api/productos/stock-bajo` → Listar productos con stock menor al mínimo definido.  
+- **POST** `/api/movimientos` → Registrar entrada o salida de stock.  
+- **GET** `/api/reportes/mas-vendidos` → Consultar productos más vendidos.  
 
 ---
 ## 🚀 Objetivo
