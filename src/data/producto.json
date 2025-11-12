@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "nombre": "Smartphone Galaxy Z",
+    "precio": 899.99,
+    "stock": 30,
+    "categoriaId": 1,
+    "proveedorId": 1,
+    "descripcion": "Pantalla AMOLED 6.5'' y 128GB de almacenamiento."
+  },
+  {
+    "id": 2,
+    "nombre": "Televisor 55'' 4K",
+    "precio": 699.5,
+    "stock": 15,
+    "categoriaId": 1,
+    "proveedorId": 1,
+    "descripcion": "TV Ultra HD con HDR10 y conexión WiFi."
+  },
+  {
+    "id": 3,
+    "nombre": "Cafetera Express",
+    "precio": 150,
+    "stock": 25,
+    "categoriaId": 2,
+    "proveedorId": 2,
+    "descripcion": "Cafetera italiana con filtro de acero inoxidable."
+  },
+  {
+    "id": 4,
+    "nombre": "Sillón reclinable",
+    "precio": 450,
+    "stock": 10,
+    "categoriaId": 2,
+    "proveedorId": 2,
+    "descripcion": "Tapizado en cuero sintético con reclinación automática."
+  },
+  {
+    "id": 5,
+    "nombre": "Campera de abrigo",
+    "precio": 120,
+    "stock": 50,
+    "categoriaId": 3,
+    "proveedorId": 3,
+    "descripcion": "Campera térmica impermeable para invierno."
+  },
+  {
+    "id": 6,
+    "nombre": "Zapatillas deportivas",
+    "precio": 95,
+    "stock": 80,
+    "categoriaId": 4,
+    "proveedorId": 4,
+    "descripcion": "Zapatillas livianas con suela antideslizante."
+  },
+  {
+    "id": 7,
+    "nombre": "Mancuernas 10kg",
+    "precio": 40,
+    "stock": 100,
+    "categoriaId": 4,
+    "proveedorId": 4,
+    "descripcion": "Par de mancuernas con recubrimiento de neopreno."
+  },
+  {
+    "id": 8,
+    "nombre": "Lego Star Cruiser",
+    "precio": 59.99,
+    "stock": 60,
+    "categoriaId": 5,
+    "proveedorId": 5,
+    "descripcion": "Set de construcción espacial de 450 piezas."
+  },
+  {
+    "id": 9,
+    "nombre": "Muñeca interactiva",
+    "precio": 45,
+    "stock": 70,
+    "categoriaId": 5,
+    "proveedorId": 5,
+    "descripcion": "Muñeca que habla y canta canciones infantiles."
+  },
+  {
+    "id": 10,
+    "nombre": "Silla ergonómica",
+    "precio": 220,
+    "stock": 35,
+    "categoriaId": 6,
+    "proveedorId": 6,
+    "descripcion": "Silla de oficina ajustable con soporte lumbar."
+  },
+  {
+    "id": 11,
+    "nombre": "Teclado mecánico RGB",
+    "precio": 80,
+    "stock": 45,
+    "categoriaId": 6,
+    "proveedorId": 6,
+    "descripcion": "Teclado retroiluminado con switches blue."
+  },
+  {
+    "id": 12,
+    "nombre": "Crema hidratante facial",
+    "precio": 25,
+    "stock": 150,
+    "categoriaId": 7,
+    "proveedorId": 7,
+    "descripcion": "Crema con ácido hialurónico y vitamina E."
+  },
+  {
+    "id": 13,
+    "nombre": "Perfume floral",
+    "precio": 60,
+    "stock": 90,
+    "categoriaId": 7,
+    "proveedorId": 7,
+    "descripcion": "Perfume de larga duración con notas florales."
+  },
+  {
+    "id": 14,
+    "nombre": "Aceite para motor 10W40",
+    "precio": 35,
+    "stock": 120,
+    "categoriaId": 8,
+    "proveedorId": 8,
+    "descripcion": "Lubricante sintético para motores a gasolina."
+  },
+  {
+    "id": 15,
+    "nombre": "Limpiaparabrisas universal",
+    "precio": 12,
+    "stock": 200,
+    "categoriaId": 8,
+    "proveedorId": 8,
+    "descripcion": "Limpiaparabrisas de caucho reforzado, tamaño estándar."
+  },
+  {
+    "id": 16,
+    "nombre": "Alimento balanceado premium",
+    "precio": 45,
+    "stock": 180,
+    "categoriaId": 9,
+    "proveedorId": 9,
+    "descripcion": "Alimento completo para perros adultos."
+  },
+  {
+    "id": 17,
+    "nombre": "Cama para gatos",
+    "precio": 35,
+    "stock": 50,
+    "categoriaId": 9,
+    "proveedorId": 9,
+    "descripcion": "Cama acolchada para gatos medianos."
+  },
+  {
+    "id": 18,
+    "nombre": "Tijeras de podar",
+    "precio": 20,
+    "stock": 100,
+    "categoriaId": 10,
+    "proveedorId": 10,
+    "descripcion": "Tijeras de acero inoxidable con mango ergonómico."
+  },
+  {
+    "id": 19,
+    "nombre": "Maceta cerámica 20cm",
+    "precio": 15,
+    "stock": 120,
+    "categoriaId": 10,
+    "proveedorId": 10,
+    "descripcion": "Maceta blanca con drenaje ideal para plantas de interior."
+  },
+  {
+    "id": 20,
+    "nombre": "Auriculares inalámbricos",
+    "precio": 130,
+    "stock": 60,
+    "categoriaId": 1,
+    "proveedorId": 1,
+    "descripcion": "Bluetooth 5.0 con cancelación activa de ruido."
+  }
+]

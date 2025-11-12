@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nombre": "Electrónica",
+    "descripcion": "Dispositivos electrónicos y gadgets."
+  },
+  {
+    "id": 2,
+    "nombre": "Hogar",
+    "descripcion": "Productos para el hogar y cocina."
+  },
+  {
+    "id": 3,
+    "nombre": "Ropa",
+    "descripcion": "Indumentaria y accesorios."
+  },
+  {
+    "id": 4,
+    "nombre": "Deportes",
+    "descripcion": "Artículos deportivos y de entrenamiento."
+  },
+  {
+    "id": 5,
+    "nombre": "Juguetes",
+    "descripcion": "Juguetes y juegos para todas las edades."
+  },
+  {
+    "id": 6,
+    "nombre": "Oficina",
+    "descripcion": "Insumos y equipamiento para oficina."
+  },
+  {
+    "id": 7,
+    "nombre": "Salud y Belleza",
+    "descripcion": "Productos de cuidado personal y belleza."
+  },
+  {
+    "id": 8,
+    "nombre": "Automotriz",
+    "descripcion": "Accesorios y repuestos para vehículos."
+  },
+  {
+    "id": 9,
+    "nombre": "Mascotas",
+    "descripcion": "Productos y alimentos para mascotas."
+  },
+  {
+    "id": 10,
+    "nombre": "Jardinería",
+    "descripcion": "Herramientas y artículos para el jardín."
+  },
+  {
+    "id": 11,
+    "nombre": "Jaría",
+    "descripcion": ""
+  }
+]

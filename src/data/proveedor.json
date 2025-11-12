@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos",
+    "apellido": "Fernández",
+    "dni": "30456987",
+    "cuil": "20-30456987-1",
+    "direccion": "Av. Rivadavia 1200, CABA",
+    "categorias": [1,2],
+    "productos": [1, 2, 20]
+  },
+  {
+    "id": 2,
+    "nombre": "Lucía",
+    "apellido": "Martínez",
+    "dni": "28340123",
+    "cuil": "27-28340123-6",
+    "direccion": "Belgrano 245, Córdoba",
+    "categorias": [ 6],
+    "productos": [3, 4, 10, 11]
+  },
+  {
+    "id": 3,
+    "nombre": "Javier",
+    "apellido": "López",
+    "dni": "33211876",
+    "cuil": "20-33211876-3",
+    "direccion": "San Martín 980, Rosario",
+    "categorias": [3,2],
+    "productos": [5]
+  },
+  {
+    "id": 4,
+    "nombre": "Paula",
+    "apellido": "Giménez",
+    "dni": "29300845",
+    "cuil": "27-29300845-9",
+    "direccion": "Av. Libertad 302, Mendoza",
+    "categorias": [4],
+    "productos": [6, 7]
+  },
+  {
+    "id": 5,
+    "nombre": "Hernán",
+    "apellido": "Soto",
+    "dni": "31222098",
+    "cuil": "20-31222098-4",
+    "direccion": "Calle Mitre 221, La Plata",
+    "categorias": [5],
+    "productos": [8, 9]
+  },
+  {
+    "id": 6,
+    "nombre": "Natalia",
+    "apellido": "Vega",
+    "dni": "27009123",
+    "cuil": "27-27009123-7",
+    "direccion": "Catamarca 200, Tucumán",
+    "categorias": [6],
+    "productos": [10, 11]
+  },
+  {
+    "id": 7,
+    "nombre": "Federico",
+    "apellido": "Ruiz",
+    "dni": "29999887",
+    "cuil": "20-29999887-2",
+    "direccion": "Ruta 8 km 12, Pilar",
+    "categorias": [7],
+    "productos": [12, 13]
+  },
+  {
+    "id": 8,
+    "nombre": "María",
+    "apellido": "Peralta",
+    "dni": "28455522",
+    "cuil": "27-28455522-8",
+    "direccion": "Camino del Buen Aire 200, San Isidro",
+    "categorias": [8],
+    "productos": [14, 15]
+  },
+  {
+    "id": 9,
+    "nombre": "Santiago",
+    "apellido": "Castro",
+    "dni": "32144109",
+    "cuil": "20-32144109-5",
+    "direccion": "Moreno 331, Mar del Plata",
+    "categorias": [9],
+    "productos": [16, 17]
+  },
+  {
+    "id": 10,
+    "nombre": "Rocío",
+    "apellido": "Herrera",
+    "dni": "30122344",
+    "cuil": "27-30122344-1",
+    "direccion": "Av. San Juan 800, CABA",
+    "categorias": [10],
+    "productos": [18, 19]
+  }
+]
