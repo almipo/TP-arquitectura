@@ -25,16 +25,15 @@ Brindar una API modular y extensible para el manejo de stock y relaciones entre 
 ```bash
 git clone https://github.com/almipo/apiControlStock.git
 cd apiControlStock
-2️⃣ Instalar dependencias
-bash
-Copiar código
+```
+### 2️⃣ Instalar dependencias
+```
 npm install
-3️⃣ Ejecutar el servidor en modo desarrollo
-bash
-Copiar código
+```
+### 3️⃣ Ejecutar el servidor en modo desarrollo
+```
 npm run dev
-El servidor se inicia por defecto en
-👉 http://localhost:3000
+El servidor se inicia por defecto en http://localhost:3000
 ```
 
 ## 📂 Estructura del proyecto
@@ -137,7 +136,7 @@ A continuación se muestran pruebas ejecutadas en Postman.
 
 | Caso | Captura |
 |------|---------|
-| Listar producto (GET /api/producto/2) | ![Listar Producto](./screenshots/getProducto2.png) |
+| Listar producto 2 (GET /api/producto/2) | ![Listar Producto](./screenshotsPostman/getProducto2.png) |
 | Listar proveedor del producto 2  (GET /api/producto/2/proveedor) | ![Listar Proveedor](./screenshotsPostman/getProducto2Proveedor.png) |
 | Listar Productos del proveedor 2 (GET /api/proveedor/2/producto) | ![Listar productos del proveedor](./screenshotsPostman/getProveedor2Producto.png) |
 | Modificar proveedor 2 (PATCH /api/proveedor/2) | ![Modificacion parcial proveedor](./screenshotsPostman/patchProveedor2.png) |
