@@ -138,9 +138,10 @@ async actualizarParcial(req, res) {
         cantidadProductos: productos.length,
         productos,
         _links: {
-          self: { href: `${req.protocol}://${req.get("host")}/api/proveedor/${req.params.id}/producto` },
-          proveedor: { href: `${req.protocol}://${req.get("host")}/api/proveedor/${req.params.id}` },
-          allProveedores: { href: `${req.protocol}://${req.get("host")}/api/proveedor` },
+          self: { href: `${req.protocol}://${req.get("host")}/api/proveedor/${req.params.id}/producto`, method: "GET" },
+          proveedor: { href: `${req.protocol}://${req.get("host")}/api/proveedor/${req.params.id}`, method: "GET" },
+          allProveedores: { href: `${req.protocol}://${req.get("host")}/api/proveedor`, method: "GET" },
+          productos: { href: `${req.protocol}://${req.get("host")}/api/producto`, method: "GET" },
         },
       });
     } catch (error) {

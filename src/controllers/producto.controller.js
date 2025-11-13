@@ -231,6 +231,8 @@ async eliminar(req, res) {
               _links: {
                 self: { href: `${req.protocol}://${req.get("host")}/api/categoria/${categoria.id}`, method: "GET" },
                 producto: { href: `${req.protocol}://${req.get("host")}/api/producto/${producto.id}`, method: "GET" },
+                productos: { href: `${req.protocol}://${req.get("host")}/api/producto`, method: "GET" },
+                
             }
           }
           : null,
@@ -240,27 +242,24 @@ async eliminar(req, res) {
     }
   }
 
-  async obtenerProveedorDeProducto(req, res) {
-    try {
-      const { producto, proveedor } = await this.service.obtenerProveedor(req.params.id);
-       if (!proveedor) {
-      return res.status(404).json({ message: "Proveedor no encontrado" });
-    }
-      res.json({
-        proveedor: proveedor
-          ? {
-              ...proveedor,
-              _links: {
-                self: { href: `${req.protocol}://${req.get("host")}/api/proveedor/${proveedor.id}`, method: "GET" },
-                producto: { href: `${req.protocol}://${req.get("host")}/api/producto/${producto.id}`, method: "GET" },
-                categorias: { href: `${req.protocol}://${req.get("host")}/api/categoria`, method: "GET" },
-                productos: { href: `${req.protocol}://${req.get("host")}/api/producto`, method: "GET" },
-              },
-            }
-          : null,
-      });
-    } catch (error) {
-      res.status(400).json({ message: error.message });
-    }
+async obtenerProveedorDeProducto(req, res) {
+  try {
+    const { producto, proveedor } = await this.service.obtenerProveedor(req.params.id);
+
+    res.json({
+      proveedor: {
+        ...proveedor,
+        _links: {
+          self: { href: `${req.protocol}://${req.get("host")}/api/proveedor/${proveedor.id}`, method: "GET" },
+          producto: { href: `${req.protocol}://${req.get("host")}/api/producto/${producto.id}`, method: "GET" },
+          productos: { href: `${req.protocol}://${req.get("host")}/api/producto`, method: "GET" },
+        },
+      },
+    });
+  } catch (error) {
+    res.status(400).json({ message: error.message });
   }
+}
+
+
 }

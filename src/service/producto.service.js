@@ -77,15 +77,26 @@ export class ProductoService {
     return this.dao.eliminar(id);
   }
 
-  async obtenerCategoria(productoId) {
-    const producto = this.dao.obtenerPorId(productoId);
-    if (!producto) throw new Error("Producto no encontrado");
-    return this.categoriaDao.obtenerPorId(producto.categoriaId);
-  }
 
-  async obtenerProveedor(productoId) {
-    const producto = this.dao.obtenerPorId(productoId);
-    if (!producto) throw new Error("Producto no encontrado");
-    return this.proveedorDao.obtenerPorId(producto.proveedorId);
-  }
+async obtenerProveedor(productoId) {
+  const producto = this.dao.obtenerPorId(productoId);
+  if (!producto) throw new Error("Producto no encontrado");
+
+  const proveedor = this.proveedorDao.obtenerPorId(producto.proveedorId);
+  if (!proveedor) throw new Error("Proveedor no encontrado");
+
+  return { producto, proveedor };
+}
+
+async obtenerCategoria(productoId) {
+  const producto = this.dao.obtenerPorId(productoId);
+  if (!producto) throw new Error("Producto no encontrado");
+
+  const categoria = this.categoriaDao.obtenerPorId(producto.categoriaId);
+  if (!categoria) throw new Error("Categoría no encontrada");
+
+  return { producto, categoria };
+}
+
+
 }
